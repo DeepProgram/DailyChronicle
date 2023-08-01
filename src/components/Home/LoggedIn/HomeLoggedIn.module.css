@@ -1,0 +1,47 @@
+.homeContainer{
+    position: relative;
+}
+
+.inputContainer{
+    position: relative;
+}
+
+.text{
+    margin-bottom: 0.5rem;
+}
+
+.input{
+    outline: none;
+    border: 1px solid #b0b0b0;
+    border-radius: 0.2rem;
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.instruction{
+    font-size: 0.7rem;
+    color: #777777;
+    margin-bottom: 1rem;
+}
+
+.submitBtn{
+    background: #007dce;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.loadBeforeMountingAnimation{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

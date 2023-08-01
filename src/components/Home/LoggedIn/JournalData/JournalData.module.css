@@ -1,0 +1,74 @@
+.journalDataContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+}
+
+.firstSections{
+    grid-column: 1/2;
+    cursor: pointer;
+}
+
+.secondSections{
+    grid-column: 2/3;
+    cursor: pointer;
+}
+
+.thirdSections{
+    grid-column: 3/4;
+    cursor: pointer;
+}
+
+.dataContainer{
+    margin-bottom: 2rem;
+}
+
+.title{
+    border: 1px solid #a1a1a1;
+    padding: 0.5rem 1rem;
+    background: #dadada;
+    border-radius: 0.2rem 0.2rem 0 0;
+    border-bottom: none;
+}
+
+.body{
+    border: 1px solid #a1a1a1;
+    padding: 0.5rem 1rem;
+}
+
+.actions{
+    border: 1px solid #a1a1a1;
+    border-top: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0.4rem 1rem;
+}
+
+.edit{
+
+    text-align: left;
+    cursor: pointer;
+    grid-column: 1/2;
+    color: #007dce;;
+}
+
+.delete{
+    text-align: left;
+    cursor: pointer;
+    grid-column: 2/3;
+    color: #bb0000;
+}
+
+
+
+@media screen  and (max-width: 768px), screen and (max-width: 992px) {
+    .journalDataContainer{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .journalDataContainer{
+        grid-template-columns: auto auto;
+    }
+}

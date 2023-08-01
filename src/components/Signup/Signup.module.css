@@ -1,0 +1,143 @@
+.loadAnimation{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupContainer{
+    height: 100vh;
+    width: 100vw;
+    top: -2rem;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.signup{
+    position: relative;
+    width: 40%;
+    /*height: 50%;*/
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    background: #caa5e1;
+}
+
+.signupHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.signupText{
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    border-bottom: 2px solid black;
+    padding: 0 5rem 0.2rem 5rem;
+}
+
+.signupBody{
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.usernameContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.usernameContainer div{
+    font-size: 0.95rem;
+}
+
+.usernameContainer input{
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.6rem;
+    color: #019d5d;
+}
+
+.passwordContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.passwordContainer div{
+    font-size: 0.95rem;
+}
+
+.passwordContainer input{
+    width: 100%;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.6rem;
+    color: #bb0000;
+}
+
+.signupFooter{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.signupFooter button{
+    padding: 0.2rem 0.9rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: white;
+    color: #06b2b7;
+    font-weight: 550;
+    letter-spacing: 0.08rem;
+}
+.signupFooter button:hover{
+    background: #019d5d;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .signup{
+        width: 85%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .signup{
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .signup{
+        width: 60%;
+    }
+    .signupFooter button{
+        padding: 0.5rem 1rem;
+    }
+    .signupBody{
+        gap: 1.5rem;
+    }
+    .usernameContainer{
+        gap: 0.5rem;
+    }
+    .passwordContainer{
+        gap: 0.5rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
